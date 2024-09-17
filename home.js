@@ -8,7 +8,7 @@ if (localStorage.getItem('userEmail') && localStorage.getItem('userName')) {
   userName.innerText = `Welcome: `;
   let userNameText = document.createElement('b');
   userNameText.innerText = localStorage.getItem('userName');
-  userNameText.style.color = 'red';
+  userNameText.style.color = '#ff7287';
   userName.append(userNameText);
   fetchMovies();
 } else {
